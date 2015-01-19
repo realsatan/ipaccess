@@ -1,0 +1,13 @@
+./log.txt
+/etc/apache2/allow.ip
+---------------------
+两个文件 chmod 666
+
+restart 为suid
+---------------------
+所有文件在拷贝后，丢失设置的属性
+
+#问题
+不能在apache2中重启apache2
+
+access.rb

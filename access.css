@@ -1,0 +1,80 @@
+body {
+    font-size: 100%;
+    font-family: "Microsoft YaHei","Arial Narrow";
+
+    margin: 0px;
+    
+}
+
+/* 外框  */
+.wrapper {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.title {
+    
+
+}
+
+/* 注册输入行  */
+.inform {
+    text-align: left;
+    position: relative;
+    clear: both;
+    height: 42px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* 注册提示项  */
+.desc {
+    width: 100px;
+    height: 42px;
+    margin-right: 10px;
+    line-height: 42px;
+
+    font-weight: bold;
+    font-size: 1em;	/* 16px/16px */
+    
+    float: left;
+    display: block; 
+}
+
+/* 注册信息输入框  */
+.text-input {
+    position: relative;
+    float: left;
+    height: 16px;
+    width: 328px;
+    padding: 11px 10px 11px 10px;
+    margin-right: 10px;
+
+    font-size: 0.875em;	/* 14px / 16px*/
+    color: #666;
+    border: 1px solid #ddd;
+}
+
+.submit {
+    position: relative;
+    display: block;
+    padding-left: 110px;
+    text-align: left;
+
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 200px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    background-color: #4490f7;
+
+    cursor: pointer;  /* 手型鼠标指针 */
+}
+
