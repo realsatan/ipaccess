@@ -10,4 +10,6 @@ restart 为suid
 #问题
 不能在apache2中重启apache2
 
-access.rb
+access.rb 改名为 access，隐藏cgi程序名
+
+
